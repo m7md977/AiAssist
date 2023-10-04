@@ -1,0 +1,15 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
+import { registerLicense } from "@syncfusion/ej2-base";
+
+registerLicense(
+  "Mgo+DSMBaFt/QHRqVVhlXVpFdEBBXHxAd1p/VWJYdVt5flBPcDwsT3RfQF5jS3xQd0BhXXtdc3xRTg==;Mgo+DSMBPh8sVXJ0S0J+XE9Bd1RDX3xKf0x/TGpQb19xflBPallYVBYiSV9jS31TdEdgWHpcdHBWQmBfWQ==;ORg4AjUWIQA/Gnt2VVhkQlFac15JXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxQdkdhWn5bcnBRRWRdWUw=;MTE5MjkzMEAzMjMwMmUzNDJlMzBKalJvNmVsR0plOUxDNndKaTRXYVdXb1Y1OEJPSFRhY0hLS1hWTlNWcVp3PQ==;MTE5MjkzMUAzMjMwMmUzNDJlMzBWY094cElEYjlFNjZ4NXlVZU1qYnhwR21VRXd1dlRudEorQW0rK1Q3RytBPQ==;NRAiBiAaIQQuGjN/V0Z+WE9EaFpDVmJLYVB3WmpQdldgdVRMZVVbQX9PIiBoS35RdUVhW3xfdXZRQmNYWEF+;MTE5MjkzM0AzMjMwMmUzNDJlMzBQL3MyT1I2bjFrOSt0NVNZdWFuOEJ3dC9XaUFXYUo2aFpZeE1Zb0NaSGJzPQ==;MTE5MjkzNEAzMjMwMmUzNDJlMzBVVTdSZDU3RjZIekhEUmd0WWluU0loS3FkU2V5L053dkFKYmxkdUFsaHdzPQ==;Mgo+DSMBMAY9C3t2VVhkQlFac15JXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxQdkdhWn5bcnBRRWVbV0A=;MTE5MjkzNkAzMjMwMmUzNDJlMzBQdjJ2RE91NVZXREhncGVxWFlFZlFpT0FqZkcxR2NCemNkOFNNWnBUbjZrPQ==;MTE5MjkzN0AzMjMwMmUzNDJlMzBuOE56YU1CRHRKaW1aZVpJTloxaFNBWlFnMXMydGNIdG5IdytzQSt6TmJ3PQ==;MTE5MjkzOEAzMjMwMmUzNDJlMzBQL3MyT1I2bjFrOSt0NVNZdWFuOEJ3dC9XaUFXYUo2aFpZeE1Zb0NaSGJzPQ=="
+);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
